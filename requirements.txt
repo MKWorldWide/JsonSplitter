@@ -1,0 +1,18 @@
+# JsonSplitter Requirements
+# Python 3.7+ compatible
+
+# Core dependencies (all scripts use only standard library)
+# No external packages required - uses built-in Python modules:
+# - argparse (command line parsing)
+# - json (JSON processing)
+# - os (file system operations)
+# - datetime (timestamp handling)
+# - typing (type hints)
+
+# Optional: For development and testing
+# pytest>=6.0.0
+# black>=21.0.0
+# flake8>=3.8.0
+
+# Note: This project is designed to work with Python's standard library only
+# No pip install required - just ensure you have Python 3.7+ installed

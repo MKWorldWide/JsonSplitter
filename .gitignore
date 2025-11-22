@@ -1,0 +1,79 @@
+# JsonSplitter Git Ignore File
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific - your conversation data
+conversations.json
+!conversations.json.example
+
+# Output directories (optional - remove if you want to track outputs)
+output/
+output_by_title/
+output_by_date_title/
+output_with_exclusions/
+output_by_date_title_excluded/
+output_text/
+output_by_title_text/
+output_by_date_title_text/
+output_by_date_title_book/
+output_with_exclusions_text/
+output_by_date_title_excluded_text/
+
+# Large files
+*.txt
+!README.md
+!requirements.txt
+!LICENSE
+!.gitignore
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Backup files
+*.bak
+*.backup
